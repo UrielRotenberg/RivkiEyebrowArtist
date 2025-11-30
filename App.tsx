@@ -7,7 +7,7 @@ import AIConsultant from './components/AIConsultant';
 import Testimonials from './components/Testimonials';
 import AccessibilityToolbar from './components/AccessibilityToolbar';
 
-const LOGO_URL = "/rivki-logo.png";
+const LOGO_URL = import.meta.env.BASE_URL + "rivki-logo.png";
 
 const SERVICES = [
   {
